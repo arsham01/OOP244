@@ -1,0 +1,136 @@
+Script started on Mon 07 Oct 2019 10:24:06 PM EDT
+==89396== Memcheck, a memory error detector
+==89396== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==89396== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==89396== Command: ws
+==89396== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Testing An Empty Bouquet
+----------------------------------------------------------------
+1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1
+This is an empty bouquet...
+
+Testing A Non-Empty Bouquet 2-Args
+----------------------------------------------------------------
+2 - 2 - 2 - 2 - 2 - 2 - 2 - 2 - 2 - 2
+This bouquet worth 6.83 has the following flowers...
+Flower: Red Rose Price: 2.25
+Flower: Blue Rose Price: 3.33
+Flower: Yellow Sunflower Price: 1.25
+with a message of: Congratulations
+
+Testing A Non-Empty Bouquet 3-args
+----------------------------------------------------------------
+3 - 3 - 3 - 3 - 3 - 3 - 3 - 3 - 3 - 3
+This bouquet worth 6.83 has the following flowers...
+Flower: Red Rose Price: 2.25
+Flower: Blue Rose Price: 3.33
+Flower: Yellow Sunflower Price: 1.25
+with a message of: Happy Happy Day
+
+
+Testing Arranging an Empty Bouquet
+----------------------------------------------------------------
+4 - 4 - 4 - 4 - 4 - 4 - 4 - 4 - 4 - 4
+Arranging a new bouquet...
+Enter the number of flowers in this bouquet (Valid: 1-3)... : 0
+The valid range is 1-3... Try again: 2
+Beginning the birth of a new flower...
+Enter the flower's name... : Iris
+Enter the flower's colour... : Pink
+Enter the flower's price... : 1.2
+The flower's current details...
+Flower: Pink Iris Price: 1.20
+Beginning the birth of a new flower...
+Enter the flower's name... : Dandelion
+Enter the flower's colour... : Yellow
+Enter the flower's price... : 1.3
+The flower's current details...
+Flower: Yellow Dandelion Price: 1.30
+A bouquet has been arranged...
+Enter a message to send with the bouquet...: 
+A bouquets's message (non-empty) is limited to 30 characters... Try again: Congrats
+This bouquet worth 2.50 has the following flowers...
+Flower: Pink Iris Price: 1.20
+Flower: Yellow Dandelion Price: 1.30
+with a message of: Congrats
+
+
+Testing Arranging an Non-Empty Bouquet (No Discard)
+----------------------------------------------------------------
+5 - 5 - 5 - 5 - 5 - 5 - 5 - 5 - 5 - 5
+Arranging a new bouquet...
+This bouquet has an arrangement currently, discard it? (Y/N): N
+No new arrangement performed...
+This bouquet worth 2.50 has the following flowers...
+Flower: Pink Iris Price: 1.20
+Flower: Yellow Dandelion Price: 1.30
+with a message of: Congrats
+
+
+Testing Arranging an Non-Empty Bouquet (Discard)
+----------------------------------------------------------------
+6 - 6 - 6 - 6 - 6 - 6 - 6 - 6 - 6 - 6
+Arranging a new bouquet...
+This bouquet has an arrangement currently, discard it? (Y/N): Y
+Discarding the current bouquet...
+Yellow Dandelion has departed...
+Pink Iris has departed...
+Enter the number of flowers in this bouquet (Valid: 1-3)... : 1
+Beginning the birth of a new flower...
+Enter the flower's name... : Lily
+Enter the flower's colour... : White
+Enter the flower's price... : 1.4
+The flower's current details...
+Flower: White Lily Price: 1.40
+A bouquet has been arranged...
+Enter a message to send with the bouquet...: Welcome
+This bouquet worth 1.40 has the following flowers...
+Flower: White Lily Price: 1.40
+with a message of: Welcome
+
+
+Testing Discarding a Bouquet
+----------------------------------------------------------------
+7 - 7 - 7 - 7 - 7 - 7 - 7 - 7 - 7 - 7
+Discarding the current bouquet...
+White Lily has departed...
+
+Testing Destructors
+----------------------------------------------------------------
+8 - 8 - 8 - 8 - 8 - 8 - 8 - 8 - 8 - 8
+An unknown bouquet has departed...
+A bouquet has departed with the following flowers...
+Yellow Sunflower has departed...
+Blue Rose has departed...
+Red Rose has departed...
+A bouquet has departed with the following flowers...
+Yellow Sunflower has departed...
+Blue Rose has departed...
+Red Rose has departed...
+An unknown bouquet has departed...
+Yellow Sunflower has departed...
+Blue Rose has departed...
+Red Rose has departed...
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==89396== 
+==89396== HEAP SUMMARY:
+==89396==     in use at exit: 22 bytes in 22 blocks
+==89396==   total heap usage: 57 allocs, 35 frees, 636 bytes allocated
+==89396== 
+==89396== LEAK SUMMARY:
+==89396==    definitely lost: 22 bytes in 22 blocks
+==89396==    indirectly lost: 0 bytes in 0 blocks
+==89396==      possibly lost: 0 bytes in 0 blocks
+==89396==    still reachable: 0 bytes in 0 blocks
+==89396==         suppressed: 0 bytes in 0 blocks
+==89396== Rerun with --leak-check=full to see details of leaked memory
+==89396== 
+==89396== For counts of detected and suppressed errors, rerun with: -v
+==89396== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 07 Oct 2019 10:25:26 PM EDT

@@ -1,0 +1,59 @@
+Script started on Sun 15 Sep 2019 07:13:44 PM EDT
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+SDDS Phone Directory..................
+
+1- Add Phone Record 
+2- Search           
+3- Sort             
+4- List all         
+0- Exit             
+> 4
+Edna Krabappel.....................2175551367
+Ned Flanders.......................2175553214
+Elizabeth Hoover...................2175554039
+Willie MacDougal...................2175559983
+Otto Mann..........................2175553829
+Doris Freedman.....................2175554433
+Dewey Largo........................2175559932
+Loren Pryor........................2175553096
+
+1- Add Phone Record 
+2- Search           
+3- Sort             
+4- List all         
+0- Exit             
+> 3
+Sorted!
+
+1- Add Phone Record 
+2- Search           
+3- Sort             
+4- List all         
+0- Exit             
+> 4
+Dewey Largo........................2175559932
+Doris Freedman.....................2175554433
+Edna Krabappel.....................2175551367
+Elizabeth Hoover...................2175554039
+Loren Pryor........................2175553096
+Ned Flanders.......................2175553214
+Otto Mann..........................2175553829
+Willie MacDougal...................2175559983
+
+1- Add Phone Record 
+2- Search           
+3- Sort             
+4- List all         
+0- Exit             
+> 0
+Goodbye!
+
+The phone diecotry has changed!Save changes? (Y/N): y
+Changes Saved!!
+
+[38;5;9m------------------------
+End Testing the Program![0m
+
+Script done on Sun 15 Sep 2019 07:14:11 PM EDT

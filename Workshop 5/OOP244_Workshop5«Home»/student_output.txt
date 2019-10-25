@@ -1,0 +1,79 @@
+Script started on Thu 10 Oct 2019 08:22:37 PM EDT
+==241122== Memcheck, a memory error detector
+==241122== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==241122== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==241122== Command: ws
+==241122== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Testing Creating Legs, Empty & Non-Empty
+----------------------------------------------------------------
+1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1 - 1
+0 25 50
+
+ -= on Empty & Non-Empty Legs
+----------------------------------------------------------------
+2 - 2 - 2 - 2 - 2 - 2 - 2 - 2 - 2 - 2
+0 15 35
+
+Compare the speed of Legs
+----------------------------------------------------------------
+3 - 3 - 3 - 3 - 3 - 3 - 3 - 3 - 3 - 3
+l1 is slower than l3
+l3 is faster than l2
+
+Testing Non-Empty Robot w/ Legs
+----------------------------------------------------------------
+4 - 4 - 4 - 4 - 4 - 4 - 4 - 4 - 4 - 4
+***Robot Summary***
+Nickname: Miyata
+Arm Power: 120
+Durability: 500
+Legs: 120
+***Robot Summary***
+Nickname: Ippo
+Arm Power: 150
+Durability: 600
+Legs: 100
+
+Testing -= on a Robot's durability
+----------------------------------------------------------------
+5 - 5 - 5 - 5 - 5 - 5 - 5 - 5 - 5 - 5
+***Robot Summary***
+Nickname: Takamura
+Arm Power: 200
+Durability: 950
+Legs: 200
+
+Testing box function (no bout)
+----------------------------------------------------------------
+6 - 6 - 6 - 6 - 6 - 6 - 6 - 6 - 6 - 6
+Attempting to begin a Robot boxing match
+At least one of the Robots isn't operational. No bout will be had.
+
+Testing box function (bout)
+----------------------------------------------------------------
+7 - 7 - 7 - 7 - 7 - 7 - 7 - 7 - 7 - 7
+Attempting to begin a Robot boxing match
+Both participants are operational... beginning the bout
+The bout has concluded... the winner is: 
+***Robot Summary***
+Nickname: Ippo
+Arm Power: 150
+Durability: 120
+Legs: 100
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==241122== 
+==241122== HEAP SUMMARY:
+==241122==     in use at exit: 0 bytes in 0 blocks
+==241122==   total heap usage: 0 allocs, 0 frees, 0 bytes allocated
+==241122== 
+==241122== All heap blocks were freed -- no leaks are possible
+==241122== 
+==241122== For counts of detected and suppressed errors, rerun with: -v
+==241122== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Thu 10 Oct 2019 08:22:38 PM EDT

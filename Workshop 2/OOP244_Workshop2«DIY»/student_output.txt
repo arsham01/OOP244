@@ -1,0 +1,92 @@
+Script started on Thu 03 Oct 2019 07:54:26 PM EDT
+==104482== Memcheck, a memory error detector
+==104482== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==104482== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==104482== Command: ws
+==104482== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+SenePark Valet Parking
+
+1- Open Parking
+2- Park A Car
+3- Return A Car
+0- Close Parking
+> 2
+Parking is closed!
+1- Open Parking
+2- Park A Car
+3- Return A Car
+0- Close Parking
+> 1
+Please enter the number of avaliable spots.
+> 3
+1- Open Parking
+2- Park A Car
+3- Return A Car
+0- Close Parking
+> 3
+What is your spot number?
+> 2
+There is no car parked at spot 2
+1- Open Parking
+2- Park A Car
+3- Return A Car
+0- Close Parking
+> 2
+Make and Model: BMW 320
+License Plate: ABC123
+Your car is parked in spot number 1
+1- Open Parking
+2- Park A Car
+3- Return A Car
+0- Close Parking
+> 2
+Make and Model: Tesla Model 3
+License Plate: GVXT123
+Your car is parked in spot number 2
+1- Open Parking
+2- Park A Car
+3- Return A Car
+0- Close Parking
+> 2
+Make and Model: Honda Civic
+License Plate: QWE123
+Your car is parked in spot number 3
+1- Open Parking
+2- Park A Car
+3- Return A Car
+0- Close Parking
+> 2
+Sorry Parking is full!
+1- Open Parking
+2- Park A Car
+3- Return A Car
+0- Close Parking
+> 3
+What is your spot number?
+> 2
+Returning Tesla Model 3, plate number: GVXT123
+1- Open Parking
+2- Park A Car
+3- Return A Car
+0- Close Parking
+> 0
+Returning BMW 320, plate number: ABC123
+Returning Honda Civic, plate number: QWE123
+Parking is closed now! Goodbye...
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==104482== 
+==104482== HEAP SUMMARY:
+==104482==     in use at exit: 0 bytes in 0 blocks
+==104482==   total heap usage: 4 allocs, 4 frees, 106 bytes allocated
+==104482== 
+==104482== All heap blocks were freed -- no leaks are possible
+==104482== 
+==104482== For counts of detected and suppressed errors, rerun with: -v
+==104482== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Thu 03 Oct 2019 07:55:20 PM EDT

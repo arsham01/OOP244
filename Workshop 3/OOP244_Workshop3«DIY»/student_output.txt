@@ -1,0 +1,51 @@
+Script started on Mon 30 Sep 2019 08:50:20 PM EDT
+==147890== Memcheck, a memory error detector
+==147890== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==147890== Using Valgrind-3.13.0 and LibVEX; rerun with -h for copyright info
+==147890== Command: ws
+==147890== 
+[38;5;9mBegin Testing the Program!
+--------------------------[0m
+
+Enter the report Name: Jane Doe, Semester 2
+Enter the number of marks: 3
+Please enter 3 marks:
+1: Subject Name: DBS211
+Mark (mark/outof): 75/100
+2: Subject Name: DCF255
+Mark (mark/outof): 20/25
+3: Subject Name: OOP244
+Mark (mark/outof): 70/85
+Entry Completed!
+
+----------------------------------------------------------------------
+Jane Doe, Semester 2
+----------------------------------------------------------------------
+Marks entered:
+DBS211............................................................B+
+DCF255............................................................A
+OOP244............................................................A
+----------------------------------------------------------------------
+                              Lowest Mark.........................%75
+                              Highest mark........................%82
+                              GPA.................................3.8
+
+[38;5;9m------------------------
+End Testing the Program![0m
+==147890== 
+==147890== HEAP SUMMARY:
+==147890==     in use at exit: 120 bytes in 1 blocks
+==147890==   total heap usage: 5 allocs, 4 frees, 361 bytes allocated
+==147890== 
+==147890== LEAK SUMMARY:
+==147890==    definitely lost: 120 bytes in 1 blocks
+==147890==    indirectly lost: 0 bytes in 0 blocks
+==147890==      possibly lost: 0 bytes in 0 blocks
+==147890==    still reachable: 0 bytes in 0 blocks
+==147890==         suppressed: 0 bytes in 0 blocks
+==147890== Rerun with --leak-check=full to see details of leaked memory
+==147890== 
+==147890== For counts of detected and suppressed errors, rerun with: -v
+==147890== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+Script done on Mon 30 Sep 2019 08:51:13 PM EDT

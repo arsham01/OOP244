@@ -1,0 +1,2 @@
+For this part of workshop I had some problems in the memory allocation part because I didn't attend that session 
+because I was sick. hence, I used Faramarz Hosseini's functions for last 2 operators.
